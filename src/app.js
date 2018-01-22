@@ -6,6 +6,7 @@ import AppRouter from './routes/app-router';
 import ConfigureStore from './store/configure-store';
 import 'normalize.css/normalize.css';
 import './styles/styles.scss';
+import './firebase/firebase';
 
 import {addExpense, editExpense, removeExpense} from './actions/expenses';
 import {setTextFilter, sortByAmount, sortByDate, setStartDate, setEndDate} from './actions/filters';
